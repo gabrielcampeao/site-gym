@@ -90,18 +90,18 @@ src/
 Como Rodar Localmente
 
 ```bash
-# Instalar dependências
+ Instalar dependências
 npm install
 
-# Criar arquivo de variáveis de ambiente
+ Criar arquivo de variáveis de ambiente
 cp .env.local.example .env.local
-# (edite com suas credenciais)
+ (edite com suas credenciais)
 
-# Iniciar em desenvolvimento
+ Iniciar em desenvolvimento
 npm run dev
 ```
 
-Acesse [http://localhost:3000](http://localhost:3000)
+
 
 ---
 
