@@ -1,0 +1,48 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /home/crazzy/Documentos/dada/frontend/src/app /home/crazzy/Documentos/dada/frontend/src/components /home/crazzy/Documentos/dada/frontend/src/lib /home/crazzy/Documentos/dada/frontend/public)",
+      "Bash(mkdir -p /home/crazzy/Documentos/dada/backend/src/routes /home/crazzy/Documentos/dada/backend/src/data)",
+      "Bash(npm install *)",
+      "Bash(which node *)",
+      "Read(//usr/local/**)",
+      "Bash(cat /etc/os-release 2>/dev/null | head -5; which apt || which dnf || which pacman || which snap 2>/dev/null)",
+      "Read(//usr/lib/**)",
+      "Bash(which curl *)",
+      "Read(//home/crazzy/.local/bin/**)",
+      "Read(//app/bin/**)",
+      "Bash(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh)",
+      "Bash(bash)",
+      "Bash(find ~/.var ~/.nvm ~/. -name \"npm\" -type f 2>/dev/null | head -5; ls ~/.var/app/com.visualstudio.code/config/nvm/versions/node/ 2>/dev/null)",
+      "Read(//home/crazzy/.var/**)",
+      "Read(//home/crazzy/.var/app/com.visualstudio.code/config/nvm/versions/node/**)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/_next/static/css/app/layout.css)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -s http://localhost:3001/_next/static/css/app/layout.css)",
+      "Bash(curl -s http://localhost:3001/)",
+      "Bash(curl -s \"http://localhost:3001/\")",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"http://localhost:3001/_next/static/css/app/layout.css?v=1782573891217\")",
+      "Bash(mkdir -p /home/crazzy/Documentos/dada/src/app/checkout/\\\\[slug\\\\])",
+      "Bash(mkdir -p \"/home/crazzy/Documentos/dada/src/app/academias/[id]\")",
+      "Bash(mkdir -p \"/home/crazzy/Documentos/dada/src/app/equipamentos/[slug]\")",
+      "Bash(npm run dev > /tmp/nextdev.log 2>&1 & *)",
+      "Bash(fuser -k 3000/tcp 3001/tcp 3002/tcp)",
+      "Bash(npm run *)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs kill -9)",
+      "Bash(sed -i 's/Stone Training — SP — São Paulo/Stone Gym — SP — São Paulo/g' \"/home/crazzy/Documentos/dada/src/app/academias/[id]/page.tsx\")",
+      "Bash(sed -i 's/>Stone Training</>Stone Gym</g' \"/home/crazzy/Documentos/dada/src/app/equipamentos/page.tsx\")",
+      "Bash(sed -i 's/\"Stone Training\" </\\\\\"Stone Gym\\\\\" </g' /home/crazzy/Documentos/dada/src/app/api/contact/route.ts)",
+      "Bash(sed -i 's/— Stone Training/— Stone Gym/g' /home/crazzy/Documentos/dada/src/app/api/contact/route.ts)",
+      "Bash(sed -i 's/Stone Training\\\\. Responda/Stone Gym. Responda/g' /home/crazzy/Documentos/dada/src/app/api/contact/route.ts)"
+    ],
+    "additionalDirectories": [
+      "/home/crazzy/Documentos/dada/src/app/checkout",
+      "/home/crazzy/Documentos/dada/src/app/academias",
+      "/home/crazzy/Documentos/dada/src/app/equipamentos",
+      "/tmp"
+    ]
+  }
+}

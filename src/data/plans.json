@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Básico",
+    "price": 89.90,
+    "period": "mês",
+    "description": "Ideal para começar sua jornada fitness",
+    "features": ["Acesso à academia", "Musculação completa", "Vestiários", "Seg-Sex: 06h - 22h"],
+    "highlighted": false
+  },
+  {
+    "id": 2,
+    "name": "Premium",
+    "price": 149.90,
+    "period": "mês",
+    "description": "O equilíbrio perfeito entre custo e benefício",
+    "features": ["Tudo do Básico", "Acesso ao fim de semana", "Aulas em grupo", "Avaliação física mensal", "App de treinos"],
+    "highlighted": true
+  },
+  {
+    "id": 3,
+    "name": "Elite",
+    "price": 249.90,
+    "period": "mês",
+    "description": "Experiência completa com personal trainer",
+    "features": ["Tudo do Premium", "Personal Trainer (4x/semana)", "Nutricionista incluso", "Acesso 24 horas", "Área VIP exclusiva"],
+    "highlighted": false
+  }
+]
