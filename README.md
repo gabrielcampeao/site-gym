@@ -1,4 +1,4 @@
-Stone Gym
+**Stone Gym**
 
 Site institucional completo de uma academia fitness, construído com foco em performance, design profissional e experiência do usuário.
 
