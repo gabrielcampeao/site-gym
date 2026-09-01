@@ -1,14 +1,14 @@
 **STONE GYM**
 
-Site institucional completo de uma academia fitness, construído com foco em performance, design profissional e experiência do usuário.
+Site institucional completo de uma academia fitness, construído com foco em performance e experiência do usuário.
 
 ---
 
-Intuição do Projeto
+Sobre o Projeto
 
-O objetivo foi criar uma presença digital moderna para a **Stone Gym** — uma academia fictícia situada em São Paulo — que transmitisse credibilidade, força e sofisticação através de uma paleta escura com acentos roxos.
+Stone Gym é uma academia fictícia situada em São Paulo. O objetivo foi criar uma presença digital moderna que transmitisse credibilidade e sofisticação, usando uma paleta escura com acentos roxos.
 
-A ideia central foi entregar uma experiência semelhante a grandes redes como Smart Fit: banner promocional, busca de unidades por geolocalização, páginas de detalhe por unidade, catálogo de equipamentos com tutoriais em vídeo, checkout completo com vouchers e order bump, e um sistema de suporte via chat em tempo real.
+A referência foi a experiência de grandes redes como a Smart Fit: banner promocional, busca de unidades por geolocalização, páginas de detalhe por unidade, catálogo de equipamentos com tutoriais em vídeo, checkout completo com vouchers e order bump, e um sistema de suporte via chat em tempo real.
 
 ---
 
@@ -90,18 +90,16 @@ src/
 Como Rodar Localmente
 
 ```bash
- Instalar dependências
+# Instalar dependências
 npm install
 
- Criar arquivo de variáveis de ambiente
+# Criar arquivo de variáveis de ambiente
 cp .env.local.example .env.local
- (edite com suas credenciais)
+# (edite com suas credenciais)
 
- Iniciar em desenvolvimento
+# Iniciar em desenvolvimento
 npm run dev
 ```
-
-
 
 ---
 
