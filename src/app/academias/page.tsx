@@ -33,6 +33,10 @@ export default function AcademiasPage() {
       ...u,
       distance: userPos ? haversine(userPos.lat, userPos.lon, u.lat, u.lon) : null,
     }))
+    .sort((a, b) => {
+      if (a.distance === null || b.distance === null) return 0
+      return a.distance - b.distance
+    })
 
   return (
     <div className="min-h-screen bg-gym-dark text-white">
