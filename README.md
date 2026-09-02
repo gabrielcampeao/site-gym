@@ -94,8 +94,8 @@ Como Rodar Localmente
 npm install
 
 # Criar arquivo de variáveis de ambiente
-cp .env.local.example .env.local
-# (edite com suas credenciais)
+touch .env.local
+# (preencha com as credenciais da seção abaixo)
 
 # Iniciar em desenvolvimento
 npm run dev
