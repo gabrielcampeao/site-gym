@@ -1,14 +1,14 @@
 **STONE GYM**
 
-Site institucional completo de uma academia fitness, construído com foco em performance e experiência do usuário.
+Site institucional de uma academia fitness, com foco em performance e numa experiência de compra fluida do primeiro clique até o checkout.
 
 ---
 
 Sobre o Projeto
 
-Stone Gym é uma academia fictícia situada em São Paulo. O objetivo foi criar uma presença digital moderna que transmitisse credibilidade e sofisticação, usando uma paleta escura com acentos roxos.
+Stone Gym é uma academia fictícia sediada em São Paulo, criada para este projeto. A ideia era montar uma presença digital que passasse credibilidade e um ar mais premium do que o comum no segmento, daí a paleta escura com acentos roxos.
 
-A referência foi a experiência de grandes redes como a Smart Fit: banner promocional, busca de unidades por geolocalização, páginas de detalhe por unidade, catálogo de equipamentos com tutoriais em vídeo, checkout completo com vouchers e order bump, e um sistema de suporte via chat em tempo real.
+O ponto de partida foram redes grandes como a Smart Fit — banner promocional, busca de unidades por geolocalização, página própria para cada unidade, catálogo de equipamentos com vídeo tutorial, checkout com voucher e order bump, e um chat de suporte em tempo real.
 
 ---
 
@@ -30,20 +30,20 @@ Tecnologias
 
 Funcionalidades
 
-- **Hero** com foto real de academia e overlay gradiente roxo
-- **Seção de planos** com cards animados e loading skeleton
-- **Checkout** em 2 etapas com:
+- **Hero** com foto real de academia e overlay em gradiente roxo
+- **Seção de planos** com cards animados e skeleton de carregamento
+- **Checkout em 2 etapas**, incluindo:
   - Order bump (Acompanhamento Nutricional)
   - Cupons de desconto (`STONE10`, `PROMO20`, `WELCOME`, `FIRSTDAY`)
   - Pagamento por cartão ou Pix
-- **Página de academias** com busca, geolocalização e distância em tempo real
+- **Página de academias** com busca, geolocalização e distância calculada em tempo real
 - **Detalhe de unidade** com galeria de fotos, horários e CTA
-- **Catálogo de equipamentos** com filtro por categoria
+- **Catálogo de equipamentos** filtrável por categoria
 - **Detalhe de equipamento** com galeria, vídeo tutorial e guia de exercícios
-- **Formulário de contato** com envio real para Gmail
+- **Formulário de contato** que dispara e-mail de verdade para o Gmail
 - **Chat de suporte** flutuante com respostas automáticas
-- **Animações de scroll reveal** com IntersectionObserver nativo
-- **Logo SVG** customizada com "stone" branco + "gym" roxo + sorriso
+- **Scroll reveal** usando IntersectionObserver nativo, sem libs extras
+- **Logo em SVG** feita à mão: "stone" em branco, "gym" em roxo e um sorriso no meio
 
 ---
 
@@ -113,7 +113,7 @@ GMAIL_APP_PASSWORD=sua_senha_de_app
 CONTACT_RECIPIENT=email_que_recebe_contatos@gmail.com
 ```
 
-> **Como gerar a senha de app do Gmail:**
+> **Gerando a senha de app do Gmail:**
 > Google Account → Segurança → Verificação em duas etapas → Senhas de app
 
 ---
@@ -146,4 +146,4 @@ Paleta de Cores
 
 Licença
 
-Projeto desenvolvido para fins de demonstração.
+Projeto feito para fins de demonstração.
